@@ -3,7 +3,15 @@
 Tech Stack Used : Javascript, Express, Sequelize, MySQL, CORS, JOI, JWT, Nodemon, Moment, Bcrypt
 
 How to run :
-
+- Clone this Repo
+- Go to repo has been clone
+- Install dependencies (type "npm i" in command line)
+- Create DB on MySQL
+- Create env. file (variable same on env-template)
+- Set Value on env. file same as DB you've already create
+- Use "npx sequelize db:migrate" on command
+- And final just Use "npm run dev" on command
+- If you can visit localhost:8000 and get response like this "{"message":"Server running","serverTime":"2023-04-01T09:07:50.248Z"}" so you are ready to test the project. Goodluck :)
 
 =======================================================================================
 
