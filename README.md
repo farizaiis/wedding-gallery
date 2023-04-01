@@ -35,61 +35,96 @@ Its just basic API (include database, error handler, & validation) for Authentic
 
 * Register Admin
 endpoint : /api/v1/admin/register
+
 method : POST
+
 body : fullname, email, password
+
 params : -
+
 token type : -
+
 token : not required
 
 * Login Admin
 endpoint : /api/v1/admin/login
+
 method : POST
+
 body : email, password
+
 token type : -
+
 token : not required
 
 * Logout Admin
 endpoint : /api/v1/admin/login
+
 method : POST
+
 body : email, password
+
 token type : Bearer Token
+
 token : not required
 
 * Retrieve All Data Gallery
 endpoint : /api/v1/guest
+
 method : GET
+
 body : -
+
 token type : Bearer Token
+
 token : not required (required for Admin)
 
 * Retrieve Detail Gallery By Id
 endpoint : /api/v1/guest/:id
+
 method : GET
+
 body : -
+
 params : id (id guest_wedding)
+
 token type : Bearer Token
 
 * Create Gallery
 endpoint : /api/v1/guest
+
 method : POST
+
 body : -
+
 params : -
+
 token type : -
+
 token : not required
 
 * Update Gallery By Id
 endpoint : /api/v1/guest/:id
-method : PUT
-body : -
-params : id (id guest_wedding)
-token type : Bearer Token
-token : required
 
+method : PUT
+
+body : -
+
+params : id (id guest_wedding)
+
+token type : Bearer Token
+
+token : required
 
 * Delete Gallery By Id (SOFT DELETE)
 endpoint : /api/v1/guest/:id
+
 method : DELETE
+
 body : -
+
 params : id (id guest_wedding)
+
 token type : Bearer Token
+
 token : required
